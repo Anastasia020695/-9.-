@@ -14,7 +14,7 @@ class Program
 
     static void RecursivePrint(int N)
     {
-        if (N == 1) return;
+        if (N == 0) return;
         Console.WriteLine(N);
         RecursivePrint(N - 1);
     }
